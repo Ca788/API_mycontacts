@@ -1,7 +1,8 @@
 {
     "env": {
         "es2021": true,
-        "node": true
+        "node": true,
+        "commonjs": true
     },
     "extends": "eslint:recommended",
     "overrides": [
@@ -12,8 +13,7 @@
     },
     "rules": {
         "indent": [
-            "error",
-            "tab"
+            "off"
         ],
         "linebreak-style": [
             "error",
@@ -26,6 +26,9 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "eslintlinebreak-style": "off",
+        "eslintindent": "off",
+       "eslint-disable indent": "off"
     }
 }
