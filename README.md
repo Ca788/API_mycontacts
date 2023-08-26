@@ -54,6 +54,11 @@ docker-compose [comandos]: Gerencia aplicativos multi-contêiner usando um arqui
 
 ## Comando para listar base de dados do postgres:
 
+Entre no seu contêiner e crie um banco de dados:
+
+docker exec -it 05b3a3471f6f bash
+root@05b3a3471f6f:/# psql -U postgres
+
 CREATE DATABASE DB_Endereco;
 
 CREATE TABLE tbPais( bgId INT NOT NULL (NOT NULL indica que o campo não pode ser nulo, se for
