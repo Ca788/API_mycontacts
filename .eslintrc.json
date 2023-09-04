@@ -29,6 +29,7 @@
         ],
         "eslintlinebreak-style": "off",
         "eslintindent": "off",
-       "eslint-disable indent": "off"
+        "eslint-disable indent": "off",
+        "no-unused-vars": ["error", { "argsIgnorePattern": "next" }]
     }
 }
